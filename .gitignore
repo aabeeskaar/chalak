@@ -1,0 +1,131 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+chalak
+chalak.exe
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Claude AI context (optional - remove if you want to track it)
+.claude/
+
+# Temporary and test files
+*.tmp
+*.temp
+tmp/
+temp/
+nul
+
+# Test response files
+*.json
+!config/*.json
+!**/testdata/*.json
+
+# SQL test files
+*.sql
+!migrations/*.sql
+
+# Windows batch scripts (test scripts)
+*.bat
+
+# Token and credential files
+token.txt
+*.key
+*.pem
+credentials.json
+
+# Build artifacts
+dist/
+build/
+bin/
+
+# Coverage reports
+coverage.txt
+coverage.html
+*.cover
+
+# Documentation (temporary/generated)
+COURSE_PACKAGE_IMPLEMENTATION.md
+PAYMENT_IMPLEMENTATION_GUIDE.md
+REPORTS_IMPLEMENTATION.md
+HOW_TO_INSERT_COURSES_DATA.txt
+INSERT_DATA_INSTRUCTIONS.txt
+
+# Flutter/Dart
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/flutter_*.png
+frontend/linked_*.ds
+frontend/unlinked.ds
+frontend/unlinked_spec.ds
+frontend/*.iml
+frontend/ios/Flutter/.last_build_id
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/android/.gradle/
+frontend/android/captures/
+frontend/android/gradlew
+frontend/android/gradlew.bat
+frontend/android/local.properties
+frontend/android/**/GeneratedPluginRegistrant.java
+frontend/android/key.properties
+frontend/*.g.dart
+
+# Web
+frontend/web/
+frontend/.firebase/
+
+# Symbolication related
+frontend/app.*.symbols
+
+# Obfuscation related
+frontend/app.*.map.json
+
+# Backend specific
+backend/chalak
+backend/chalak.exe
+backend/tmp/
